@@ -2,6 +2,40 @@
 <html lang="en">
 
 <head>
+     <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    <script>
+        /* paste this line in verbatim */
+        window.formbutton = window.formbutton || function() {
+            (formbutton.q = formbutton.q || []).push(arguments)
+        };
+        /* customize formbutton below*/
+        formbutton("create", {
+            action: "https://formspree.io/f/xqkndjoz",
+            title: "How can we help?",
+            fields: [{
+                type: "email",
+                label: "Email:",
+                name: "email",
+                required: true,
+                placeholder: "your@email.com"
+            }, {
+                type: "textarea",
+                label: "Message:",
+                name: "message",
+                placeholder: "What's on your mind?",
+            }, {
+                type: "submit"
+            }],
+            styles: {
+                title: {
+                    backgroundColor: "gray"
+                },
+                button: {
+                    backgroundColor: "gray"
+                }
+            }
+        });
+    </script>
     <!-- Google Tag Manager -->
     <script>
         (function (w, d, s, l, i) {
@@ -117,6 +151,7 @@
                 <a href="https://www.linkedin.com/in/gaurav-verma-88056a224" target="_blank" class="linkedin"><i
                         class="bx bxl-linkedin"></i></a>
                 <a href="https://github.com/abcdeCoder" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+                 <a href="https://www.hackerrank.com/gaurav_021164031" target="_blank" class="health"><i class="bx-health":before></i></a>
                 <a href="mailto:gaurav.02116403220@ipu.ac.in" target="_blank" class="google"><i
                         class="bx bxl-google"></i></a>
 
@@ -788,7 +823,7 @@
     <script src="assets/vendor/typed.js/typed.min.js"></script>
     <script type="text/javascript">
         var typed = new Typed('.typing', {
-            strings: ["Coder", "Developer", "AI Enthusiast"],
+            strings: ["Gaurav Verma","Coder", "Developer", "AI Enthusiast","Loves to do Data structures for competitive programming"],
             loop: true,
             typeSpeed: 65,
             backSpeed: 65
