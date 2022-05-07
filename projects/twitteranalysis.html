@@ -45,20 +45,26 @@
               <br>
               <h2 style="color:#12d640">Image Generator</h2>
               <ul>
-                <li><strong>Tech Stack</strong>: Python, HTML, CSS, Bootstrap, GCP(Pub/Sub, Dataflow, Data Studio, GAE, BigQuery)</li>
-                <li><strong>Github URL</strong>: <a href="https://github.com/rajaprerak/TwitterAnalysis" target="_blank">Project Link</a></li>
+                <li><strong>Tech Stack</strong>: java, HTML, CSS, Bootstrap,jquery,javascript</li>
+                  <li><strong>GithubURL</strong>: <a href="https://github.com/abcdeCoder/Pathfinding.github.io" target="_blank">RepositoryLink</a></li>
+                <li><strong>ProjectURL</strong>: <a href="https://abcdecoder.github.io/Pathfinding.github.io/" target="_blank">Project Link</a></li>
               </ul>
   
                 <p>
-                Created a web‑based elastic application to provide the user with a detailed analysis of the sentiment of users on top 10 trending movies and songs with the help of Google Cloud Platform services.              
+                This application supports the following algorithms:
+             Dijkstra's Algorithm (weighted): the father of pathfinding algorithms; guarantees the shortest pathA Search* (weighted): arguably the best pathfinding algorithm; uses heuristics to guarantee the shortest path much faster than Dijkstra's Algorithm             
                 </p>
                 <p>
-                Coded Pub/Sub routine to fetch 1000 tweets at a time from Twitter; used Dataflow for resource autoscaling and dynamic work rebalancing, reducing overall response time by 50\%; stored data in BigQuery table for efficiently displaying data in Google DataStudio.
+              Greedy Best-first Search (weighted): a faster, more heuristic-heavy version of A*; does not guarantee the shortest path
+               Swarm Algorithm (weighted): a mixture of Dijkstra's Algorithm and A*; does not guarantee the shortest-path
+               Convergent Swarm Algorithm (weighted): the faster, more heuristic-heavy version of Swarm; does not guarantee the shortest path
                 </p>
                 <p>
-                Tested the scalability of web application by generating 10000 user requests with the help of Apache Beam.
-                </p>
-            </div>
+                Bidirectional Swarm Algorithm (weighted): Swarm from both sides; does not guarantee the shortest path
+                Breath-first Search (unweighted): a great algorithm; guarantees the shortest path
+                 Depth-first Search (unweighted): a very bad algorithm for pathfinding; does not guarantee the shortest pathOn top of the pathfinding algorithms listed above, I implemented a Recursive Division Maze Generation algorithm.
+               </p>
+              </div>
   
           </div>
   
